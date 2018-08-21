@@ -1,3 +1,9 @@
+#   addPatientInfoColumnsDictionary.py
+#   Description: Matches the patient information stored in "[dataset name]-patient-data.xlsx" with the raw downloaded 
+#   data in "[dataset name]-raw.xlsx" and creates a new Excel sheet containing all of the information called 
+#   "[dataset name]-added.xlsx."
+#   Amanda Zong, Summer 2018
+
 import xlsxwriter
 from openpyxl import load_workbook
 import sys
