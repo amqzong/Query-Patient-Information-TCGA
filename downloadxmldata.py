@@ -1,3 +1,9 @@
+# downloadxmldata.py
+# Description: Obtains tumor stage information for a dataset by querying the clinical XML files for each patient file 
+# and saving the extracted information to a new sheet in "[dataset name]-patient-data.xlsx." If no information found, 
+# the error code is "no data."
+# Amanda Zong, Summer 2018
+
 import requests as rq
 import json
 import re
