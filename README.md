@@ -7,7 +7,7 @@ This code was written for a project to identify which mutations in cancer patien
 
 # Files
 
-Name: getPatientInfo.py
+-Name: getPatientInfo.py
 
 Description: Gets gender/race information for a dataset by querying the TCGA API and creates a new Excel sheet named "[dataset name]-patient-data.xlsx" where the first column contains the case ID, the second column contains the submitter ID, and the third column contains the corresponding data. For each feature, a new sheet will be added.
 
@@ -17,7 +17,7 @@ Example: getPatientInfo.py cases.demographic.gender male female
 
 
 
-Name: downloadxmldata.py
+-Name: downloadxmldata.py
 
 Description: Obtains tumor stage information for a dataset by querying the clinical XML files for each patient file and saving the extracted information to a new sheet in "[dataset name]-patient-data.xlsx." If no information found, the error code is "no data."
 
@@ -27,7 +27,7 @@ Example: downloadxmldata.py TCGA-SKCM
 
 
 
-Name: addPatientInfoColumnsDictionary.py
+-Name: addPatientInfoColumnsDictionary.py
 
 Description: Matches the patient information stored in "[dataset name]-patient-data.xlsx" with the raw downloaded data in "[dataset name]-raw.xlsx" and creates a new Excel sheet containing all of the information called "[dataset name]-added.xlsx."
 
