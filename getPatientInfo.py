@@ -1,3 +1,9 @@
+# getPatientInfo.py
+# Description: Gets gender/race information for a dataset by querying the TCGA API and creates a new Excel sheet named
+# "[dataset name]-patient-data.xlsx" where the first column contains the case ID, the second column contains the 
+# submitter ID, and the third column contains the corresponding data. For each feature, a new sheet will be added.
+# Amanda Zong, Summer 2018
+
 import logging as log
 import pandas as pd
 import requests as rq
