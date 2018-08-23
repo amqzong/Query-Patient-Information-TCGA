@@ -1,4 +1,4 @@
-# Query-Patient-Information-TCGA
+# TCGA Query Patient Information
 
 # Description
 
