@@ -3,7 +3,10 @@
 # Description
 
 Given an existing TCGA dataset, queries patients by demographic or gender and adds the new information to an existing matrix of features.
-This code was written for a project to identify which mutations in cancer patients are promising targets for gene therapy treatments. This project was conducted in the Rabadan lab at Columbia Medical Center in New York, NY. See "Summer 2018 Report - Amanda Zong (Rabadan Lab)" for more details. 
+
+This code was written for a project to identify which mutations in cancer patients are promising targets for gene therapy treatments. This project was conducted during the Summer of 2018 in the Rabadan lab at Columbia Medical Center in New York, NY.
+
+For more information on the project and results, see the paper attached entitled "ProjectSummary_BoostingTOBIPerformance.pdf."
 
 # Files
 
